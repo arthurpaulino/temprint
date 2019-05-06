@@ -45,14 +45,11 @@ Usage
 
 You should see the messages being printed and then erased iteratively.
 
-.. note:: If the message is longer than your terminal width, ``temprint`` will
-    behave as the regular built-in ``print`` function.
-
-The ``temprint`` function
--------------------------
+If the message is longer than your terminal width, ``temprint`` will behave as
+the regular built-in ``print`` function.
 
 The ``temprint`` function can receive a series of objects to be printed and a
-separator.
+separator:
 
 >>> temprint('first', 'second', 'third', sep='/')
 first/second/third
